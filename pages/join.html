@@ -20,7 +20,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav" aria-label="Toggle navigation">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link ms-3" href="../index.html">Explore</a></li>
                     <li class="nav-item"><a class="nav-link ms-3" href="join.html">Join the Adventure</a></li>
@@ -36,7 +36,10 @@
     <!-- Big img -->
         <div class="row">
             <div class="col-md-12">
-                <img src="../images/IMG_8802.jpg" class="img-fluid" alt="Mountain view El Chorro">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="../images/MO_IMG_8802.webp">
+                    <img src="../images/IMG_8802.webp" alt="Mountain view El Chorro" style="width:100%; height:auto;">
+                </picture>
             </div>
         </div>
     <!-- Big img-->
@@ -54,17 +57,17 @@
     <footer class="d-flex justify-content-center align-items-center py-4 border-top">
         <ul class="nav list-unstyled d-flex">
             <li class="mx-3">
-                <a href="https://instagram.com" target="_blank" class="text-dark link-secondary">
+                <a href="https://instagram.com" target="_blank" class="text-dark link-secondary" aria-label="Instagram">
                     <i class="fa-brands fa-instagram fa-lg"></i>
                 </a>
             </li>
             <li class="mx-3">
-                <a href="https://facebook.com" target="_blank" class="text-dark link-secondary">
+                <a href="https://facebook.com" target="_blank" class="text-dark link-secondary" aria-label="Facebook">
                     <i class="fa-brands fa-facebook-f fa-lg"></i>
                 </a>
             </li>
             <li class="mx-3">
-                <a href="https://youtube.com" target="_blank" class="text-dark link-secondary">
+                <a href="https://youtube.com" target="_blank" class="text-dark link-secondary" aria-label="YouTube">
                     <i class="fa-brands fa-youtube fa-lg"></i>
                 </a>
             </li>
